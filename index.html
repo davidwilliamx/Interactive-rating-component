@@ -10,30 +10,32 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <main class="card">
-        <div class="card-main">
+    <main id="card">
+        <div id="card-main">
             <div class="card-main__image">
                 <img src="./images/icon-star.svg" alt="" aria-hidden="true">
             </div>
             <h1 class="card-main__header">How did we do?</h1>
             <p class="card-main__text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-            <div class="card-main__rating">
-                <button class="rating__item">1</button>
-                <button class="rating__item">2</button>
-                <button class="rating__item">3</button>
-                <button class="rating__item">4</button>
-                <button class="rating__item">5</button>
+            <div id="card-main__rating">
+                <input type="button" value="1" class="rating__item">
+                <input type="button" value="2" class="rating__item">
+                <input type="button" value="3" class="rating__item">
+                <input type="button" value="4" class="rating__item">
+                <input type="button" value="5" class="rating__item">
             </div>
-            <button class="card-main__button">Submit</button>
+            <input class="card-main__button" type="submit" value="Submit">
         </div>
-        <div class="card-success">
+        <div id="card-success" class="disable">
             <div class="card-success__image">
                 <img src="./images/illustration-thank-you.svg" alt="" aria-hidden="true">
             </div>
-            <p class="card-success__result">You selected <!-- Add rating here --> out of 5</p>
+            <p class="card-success__result">You selected <span id="number"></span> out of 5</p>
             <h2 class="card-success__header">Thank you!</h2>
             <p class="card-success__text">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
         </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

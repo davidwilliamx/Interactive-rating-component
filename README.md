@@ -1,5 +1,5 @@
 # Interactive rating component
 
-### Link Repositório
+### Link [Repositório](https://github.com/davidwilliamx/Interactive-rating-component)
 
-### Link Preview
+### Link [Preview](https://davidwilliamx.github.io/Interactive-rating-component/)

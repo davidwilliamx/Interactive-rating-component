@@ -48,6 +48,8 @@ body {
 }
 .card-main__image > img {
     align-self: center;
+    width: 16px;
+    height: 16px;
 }
 .card-main__header {
     font-size: 24px;
